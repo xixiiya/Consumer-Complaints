@@ -6,7 +6,7 @@ public class complaints {
     public static void main(String[] args) throws Exception {
         // input and output file path
         String fildPath = "../input/complaints.csv";
-        String outputPath = "../output/results.csv";
+        String outputPath = "../output/report.csv";
         // collect input information
         System.out.println("get input data...");
         List datas = getData(fildPath);
